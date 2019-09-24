@@ -1,4 +1,4 @@
-title: Derrick Wells – Independent Product Designer
+title: Dylan Hand – Independent Product Designer
 logo:  # you can add own logo.
 description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
 # baseurl: "/derrick" # the subpath of your site, e.g. /blog
@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author:
-  name: Derrick Wells
+  name: Dylan Hand
   image: '/assets/img/01.jpg'
   job: Independent Product Designer
   bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
@@ -17,11 +17,11 @@ author:
 # Contact links
 contact:
   - name: Twitter
-    link: https://twitter.com/
+    link: https://twitter.com/dylanhand
   - name: Facebook
-    link: https://facebook.com/
+    link: https://facebook.com/dylan.hand
   - name: Instagram
-    link: https://instagram.com/
+    link: https://instagram.com/dylanhand
 
 
 # Comment Section (Disqus)

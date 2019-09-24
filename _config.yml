@@ -1,6 +1,6 @@
 title: Dylan Hand – Independent Product Designer
-logo:  # you can add own logo.
-description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
+logo: # you can add own logo.
+description: Homepage of Dylan Hand.
 # baseurl: "/derrick" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -9,7 +9,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Dylan Hand
   image: '/assets/img/01.jpg'
-  job: Independent Product Designer
+  job: Apps & Raps
   bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
   email: forexample@website.com
 

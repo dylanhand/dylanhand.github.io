@@ -124,7 +124,7 @@ end
 desc "Build Jekyll with production configuration"
 task :build do |t|
   puts "Building with production parameters"
-  system_call('jekyll build')
+  system_call('bundle exec jekyll build')
 end
 
 desc "Deploy code and site in appropriate branches"

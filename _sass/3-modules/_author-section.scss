@@ -46,8 +46,12 @@
 
 .contact__link .contact__icon {
   font-size: 20px;
-  color: #333;
+  color: $gray-dark;
   transition: all 300ms ease;
+}
+
+.contact__link:hover .contact__icon {
+  color: $gray;
 }
 
 *, *::after, *::before {

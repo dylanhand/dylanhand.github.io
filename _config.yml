@@ -16,12 +16,24 @@ author:
 
 # Contact links
 contact:
-  - name: Twitter
-    link: https://twitter.com/dylanhand
-  - name: Facebook
-    link: https://facebook.com/dylan.hand
   - name: Instagram
     link: https://instagram.com/dylanhand
+    icon: instagram
+  - name: Twitter
+    link: https://twitter.com/dylanhand
+    icon: twitter
+  - name: YouTube
+    link: https://youtube.com/dylanhand
+    icon: youtube
+  - name: SoundCloud
+    link: https://soundcloud.com/dylanhand
+    icon: soundcloud
+  - name: Facebook
+    link: https://facebook.com/dylan.hand
+    icon: facebook
+  - name: LinkedIn
+    link: https://linkedin.com/in/dylanhand
+    icon: linkedin2
 
 
 # Comment Section (Disqus)

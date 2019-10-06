@@ -63,7 +63,7 @@
     opacity: 0;
     z-index: 10;
     background-color: $white;
-    transition: 400ms ease-in-out;
+    transition: 300ms ease-in-out;
     &.visible {
       visibility: visible;
       opacity: 1;

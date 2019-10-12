@@ -23,13 +23,22 @@
   background-color: $gray-white;
 }
 
+.article__title__container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
 .article__title {
+  display: inline-block;
   margin: 0;
   a {
     font-size: 30px;
-    font-weight: 400;
-    line-height: 38px;
-    color: $gray;
+    font-weight: 600;
+    color: $dark;
     &:hover {
       color: $primary-color;
     }
@@ -37,19 +46,19 @@
 }
 
 .article__meta {
-  margin-bottom: 15px;
+  display: inline-block;
   font-family: $font-family;
-  font-size: 12px;
-  line-height: 20px;
-  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
   color: $gray-dark;
+  white-space: nowrap;
 }
 
 .article__excerpt {
   margin-bottom: 15px;
   font-size: 16px;
   line-height: 27px;
-  color: $gray;
+  color: $dark;
 }
 
 .read-more {

@@ -16,11 +16,11 @@
 .contact__title {
   margin-bottom: 30px;
   font-size: 15px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: $font-family;
   line-height: 25px;
   color: $gray-dark;
   a {
-    font-family: 'Lora', serif;
+    font-family: $font-family;
     color: $dark;
   }
 }

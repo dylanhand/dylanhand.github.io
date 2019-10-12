@@ -38,7 +38,7 @@
 
 .article__meta {
   margin-bottom: 15px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: $font-family;
   font-size: 12px;
   line-height: 20px;
   text-transform: uppercase;
@@ -53,7 +53,7 @@
 }
 
 .read-more {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: $font-family;
   font-weight: 500;
   font-size: 14px;
   line-height: 27px;

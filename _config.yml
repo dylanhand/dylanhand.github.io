@@ -9,8 +9,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author Settings
 author:
   name: Dylan Hand
+  tagline: apps & raps
   image: '/assets/img/dylanrap.jpg'
-  job: Apps & Raps
   bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
   email: dylan.hand@gmail.com
 

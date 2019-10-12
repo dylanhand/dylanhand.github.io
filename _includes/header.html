@@ -4,12 +4,11 @@
 
     <div class="logo">
       <a class="logo__link" href="{{ site.baseurl }}/">
-      {%if site.logo %}
-        <img class="logo__image" src="{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
-      {% else %}
-        {{ site.author.name }}
-      {% endif %}
+        {{ site.title }}
       </a>
+      <div class="tagline">
+        {{ site.subtitle }}
+      </div>
     </div>
 
     <nav class="main-nav">

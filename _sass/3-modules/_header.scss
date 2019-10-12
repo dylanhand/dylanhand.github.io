@@ -9,18 +9,25 @@
   padding: 30px 0;
 }
 
-.logo__link {
-  font-size: 16px;
-  font-weight: 700;
-  color: $dark;
+.tagline {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: $gray-dark;
+  letter-spacing: -0.5px;
 }
 
-.logo__image {
-  max-height: 50px;
+.logo__link {
+  font-size: 36px;
+  font-weight: 700;
+  color: $dark;
+  letter-spacing: -1px;
 }
 
 .nav__item {
   display: inline-block;
+  font-size: 22px;
+  font-weight:600;
   margin-left: 30px;
   .nav__link {
     color: $dark;

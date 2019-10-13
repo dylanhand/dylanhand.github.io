@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/2018/05/29/welcome-to-jekyll-with-long-title-to-test-what-will-happen/</loc>
+<lastmod>2018-05-29T17:05:55+02:00</lastmod>
+</url>
+<url>
 <loc>/2018/05/29/welcome-to-jekyll/</loc>
 <lastmod>2018-05-29T17:05:55+02:00</lastmod>
+</url>
+<url>
+<loc>/2018/05/30/post-no-picture/</loc>
+<lastmod>2018-05-30T17:05:55+02:00</lastmod>
 </url>
 <url>
 <loc>/2019/07/24/first-day-in-peru/</loc>
@@ -28,6 +36,9 @@
 </url>
 <url>
 <loc>/tag/jekyll/</loc>
+</url>
+<url>
+<loc>/tag/no-picture/</loc>
 </url>
 <url>
 <loc>/tag/travel/</loc>

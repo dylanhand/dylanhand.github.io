@@ -3,7 +3,7 @@ subtitle: apps & raps
 logo: # you can add own logo.
 description: Homepage of Dylan Hand.
 # baseurl: "/derrick" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Author Settings

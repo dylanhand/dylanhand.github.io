@@ -2,6 +2,9 @@
 .article {
   display: flex;
   margin-bottom: 50px;
+  @media (max-width: $mobile) {
+    margin-bottom: 25px;
+  }
 }
 
 .article__image-box {
@@ -29,14 +32,14 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 15px;
+  margin-bottom: 0.3rem;
 }
 
 .article__title {
   display: inline-block;
   margin: 0;
   a {
-    font-size: 30px;
+    font-size: 1.4rem;
     font-weight: 600;
     color: $dark;
     &:hover {
@@ -48,23 +51,23 @@
 .article__meta {
   display: inline-block;
   font-family: $font-family;
-  font-size: 16px;
+  font-size: $small-text-size;
   font-weight: 500;
   color: $gray-dark;
   white-space: nowrap;
 }
 
 .article__excerpt {
-  margin-bottom: 15px;
-  font-size: 16px;
-  line-height: 27px;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: $dark;
 }
 
 .read-more {
   font-family: $font-family;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.8rem;
   line-height: 27px;
   text-decoration: none;
   color: $gray-dark;

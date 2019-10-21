@@ -33,6 +33,9 @@
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 0.3rem;
+  @media (max-width: $mobile) {
+    display: inline-block;
+  }
 }
 
 .article__title {
@@ -55,6 +58,10 @@
   font-weight: 500;
   color: $gray-dark;
   white-space: nowrap;
+  @media (max-width: $mobile) {
+    width: 100%;
+    padding-bottom: 0.2rem;
+  }
 }
 
 .article__excerpt {

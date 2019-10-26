@@ -80,6 +80,7 @@
       visibility: visible;
       opacity: 1;
       transition: opacity 150ms ease-out, visibility 0ms 0ms linear, transform 100ms ease-out;
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
     }
     .next__post-icon svg,
     .prev__post-icon svg {
@@ -94,6 +95,7 @@
   .post__nav-wrapper {
     left: 0;
     transform: translate3d(-30px,-50%,0);
+    border-radius: 0 5px 5px 0;
   }
   &:hover {
     .post__nav-wrapper {
@@ -107,7 +109,7 @@
 
   .post__nav-image {
     right: auto;
-    left: 0
+    left: 10px;
   }
 
   .post__nav-image ~ h2 {
@@ -127,6 +129,7 @@
   .post__nav-wrapper {
     right: 0;
     transform: translate3d(30px,-50%,0);
+    border-radius: 5px 0 0 5px;
   }
   &:hover {
     .post__nav-wrapper {
@@ -138,7 +141,7 @@
   }
 
   .post__nav-image {
-    right: 0;
+    right: 10px;
     left: auto;
   }
 
@@ -173,13 +176,12 @@
 }
 
 .post__nav-wrapper {
-  display: table;
   position: absolute;
   top: 50%;
   margin: 0;
   width: 260px;
   padding: 10px 0 10px 10px;
-  min-height: 70px;
+  min-height: 80px;
   visibility: hidden;
   opacity: 0;
   background-color: $white;
@@ -192,7 +194,8 @@
   position: absolute;
   top: 50%;
   transform: translatey(-50%);
-  width: 70px;
+  width: 60px;
+  border-radius: 3px;
   height: auto;
   background-size: cover;
   background-position: center;
@@ -209,8 +212,7 @@
 }
 
 .post__nav-title {
-  display: table-cell;
-  padding: 0 15px 0 0;
+  padding: 5px 15px 0 0;
   margin: 0;
   font-size: 16px;
   line-height: 22px;

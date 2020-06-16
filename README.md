@@ -1,5 +1,9 @@
 Dylan Hand's website.
 
+### Development mode:
+
+`bundle exec jekyll serve --watch`
+
 ### Setup:
 
 In order to get tags to work it was necessary to, confusingly, split this repo into two branches that point to different code. The `sources` branch is at the root level and contains the source code. The `master` branch is a separate git repo that lives in the `_site` folder, which allows local generation of the site (using any necessary plugins), and allows the generated files to be pushed to the `master` branch so GitHub Pages will host them.

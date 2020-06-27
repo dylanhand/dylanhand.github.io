@@ -2,7 +2,7 @@
 layout: post
 title:  "Video: Ukulele Freestyle"
 date:   2019-09-20
-image:  '/assets/img/ukulele-freestyle.png'
+image:  '/assets/img/ukulele-freestyle.jpg'
 tags:   raps freestyle
 ---
 

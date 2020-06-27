@@ -45,6 +45,7 @@ disqus-identifier: # mr-brown # add your shortname for Disqus Comment. For examp
 google-analytics: UA-98310496-1 # add your identifier. For example UA-99631805-1.
 
 images-path: /assets/img/
+thumbnails-path: /assets/img/thumbs/
 
 # Build settings
 markdown: kramdown

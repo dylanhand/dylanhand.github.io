@@ -39,8 +39,18 @@
 }
 
 .copyright {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   font-size: 11px;
   text-align: center;
   color: $gray;
+}
+
+.footer__links {
+  text-align: center;
+  font-family: $font-family;
+  a {
+    color: $gray;
+    font-size: 11px;
+  }
 }

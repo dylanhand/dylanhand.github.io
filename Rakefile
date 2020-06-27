@@ -123,6 +123,8 @@ end
 
 desc "Build Jekyll with production configuration"
 task :build do |t|
+  puts "Generating image thumbnails"
+  system_call('./assets/scripts/generate-thumbnails.sh')
   puts "Building with production parameters"
   system_call('bundle exec jekyll build')
 end

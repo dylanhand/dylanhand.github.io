@@ -18,7 +18,7 @@ function create_thumbnail_folder_structure() {
 }
 
 function make_thumbnails() {
-  find . -type f -iname "*.jpg" -exec convert "{}" -thumbnail 200x200 ./thumbs/"{}" \;
+  find . -type f -iname "*[.jpg, .png]" -exec convert "{}" -thumbnail 200x200 ./thumbs/"{}" \;
 }
 
 create_thumbnail_folder_structure

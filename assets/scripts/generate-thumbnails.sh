@@ -9,10 +9,10 @@ rm -rf thumbs
 
 # create the same directory structure in the thumbs folder
 function create_thumbnail_folder_structure() {
-  for f in $(find . -type d)
+  for subdirectory in $(find . -type d)
   do
-    if [ $f != "." ]; then
-      mkdir -p thumbs/$f
+    if [ $subdirectory != "." ] && [ $subdirectory != "./thumbs" ]; then
+      mkdir -p thumbs/$subdirectory
     fi
   done
 }

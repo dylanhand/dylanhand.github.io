@@ -32,9 +32,9 @@ contact:
   - name: Facebook
     link: https://facebook.com/dylan.hand
     icon: facebook
-  - name: LinkedIn
-    link: https://linkedin.com/in/dylanhand
-    icon: linkedin2
+  # - name: LinkedIn
+    # link: https://linkedin.com/in/dylanhand
+    # icon: linkedin2
 
 
 # Comment Section (Disqus)

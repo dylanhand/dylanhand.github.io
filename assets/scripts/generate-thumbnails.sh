@@ -5,20 +5,26 @@ parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 cd $parent_path # go to the scripts folder
 cd ../img
-rm -rf thumbs
 
 # create the same directory structure in the thumbs folder
 function create_thumbnail_folder_structure() {
-  for f in $(find . -type d)
+  for subdirectory in $(find . -not -path "./thumbs*" -type d)
   do
-    if [ $f != "." ]; then
-      mkdir -p thumbs/$f
+    if [ $subdirectory != "." ]; then
+      mkdir -p thumbs/$subdirectory
     fi
   done
 }
 
 function make_thumbnails() {
-  find . -type f -iname "*[.jpg, .png]" -exec convert "{}" -thumbnail 200x200 ./thumbs/"{}" \;
+  for file in $(find . -not -path "./thumbs/*" -type f -iname "*[.jpg, .png]")
+  do
+    filename=$(echo $file | cut -c 3-) # cut off the "./"
+    if [ ! -f "./thumbs/$filename" ]; then
+      echo "Creating thumbnail for: $file"
+      convert $file -thumbnail 200x200 "./thumbs/$filename"
+    fi
+  done
 }
 
 create_thumbnail_folder_structure

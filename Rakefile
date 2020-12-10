@@ -132,10 +132,6 @@ end
 desc "Deploy code and site in appropriate branches"
 task :deploy, [:commitMsg] do |t, args|
 
-  commitMessage = args[:commitMsg]
-  puts "args: #{commitMessage}"
-  # return
-
   init
 
   puts "deploying to " + GithubUserName + "/" + GithubRepository

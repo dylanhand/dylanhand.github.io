@@ -130,7 +130,11 @@ task :build do |t|
 end
 
 desc "Deploy code and site in appropriate branches"
-task :deploy do |t|
+task :deploy, [:commitMsg] do |t, args|
+
+  commitMessage = args[:commitMsg]
+  puts "args: #{commitMessage}"
+  # return
 
   init
 
@@ -138,13 +142,15 @@ task :deploy do |t|
 
   Rake::Task[:build].invoke
 
+  commitMessage = args[:commitMsg]
+
   # push the code
-  git_add_and_commit
+  git_add_and_commit(commitMessage)
   git_push
 
   # push the site
   Dir.chdir(SiteFileFolder) do
-    git_add_and_commit
+    git_add_and_commit(commitMessage)
     git_push
   end
 
@@ -334,11 +340,16 @@ def git_branch(branch)
   get_current_branch
 end
 
-def git_add_and_commit
+def git_add_and_commit(commitMessage = nil)
   system_call( "git add -A", false )
   @defaultMessage ||= "Code update #{Time.now.utc}"
   get_current_branch
-  @message = ask("Commit message (default = #{@defaultMessage}) : ")
+  if commitMessage == nil
+    @message = ask("Commit message (default = #{@defaultMessage}) : ")
+  else
+    @message = commitMessage
+  end
+
   if @message == ''
     @message = @defaultMessage
   else

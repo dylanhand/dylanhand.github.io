@@ -10,7 +10,7 @@ url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. h
 author:
   name: Dylan Hand
   tagline: apps & raps
-  image: '/assets/img/dylanrap.jpg'
+  image: '/assets/img/profile-pic.jpg'
   bio: Rapper from Oregon living in Gothenburg.
   email: dylan.hand@gmail.com
 

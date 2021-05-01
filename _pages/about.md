@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/assets/img/dylanrap.jpg'
+image: '/assets/img/profile-pic.jpg'
 ---
 
 I'm Dylan. 

@@ -23,12 +23,18 @@ contact:
   - name: Twitter
     link: https://twitter.com/dylanhand
     icon: twitter
-  - name: YouTube
-    link: https://youtube.com/dylanhand
-    icon: youtube
+  - name: Spotify
+    link: https://open.spotify.com/artist/5jf6ZqP5NcRcNlyeqcbYWt?si=DSNjmhwsSDWYs2hrE9WmTg
+    icon: spotify
+  - name: Apple Music
+    link: https://music.apple.com/us/artist/dylan-hand/1525131681
+    icon: itunes
   - name: SoundCloud
     link: https://soundcloud.com/dylanhand
     icon: soundcloud
+  - name: YouTube
+    link: https://youtube.com/dylanhand
+    icon: youtube
   - name: Facebook
     link: https://facebook.com/dylan.hand
     icon: facebook

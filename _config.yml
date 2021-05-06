@@ -35,9 +35,9 @@ contact:
   - name: YouTube
     link: https://www.youtube.com/channel/UCc5OZ-O78NcvLi2XVWf6KpA
     icon: youtube
-  - name: Facebook
-    link: https://facebook.com/dylan.hand
-    icon: facebook
+      # - name: Facebook
+      # link: https://facebook.com/dylan.hand
+      # icon: facebook
   # - name: LinkedIn
     # link: https://linkedin.com/in/dylanhand
     # icon: linkedin2

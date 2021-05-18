@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'Pre-save: "Fly High" coming this Friday'
+title:  '"Fly High" coming this Friday'
 date:   2021-05-18
 image:  'fly-high-cover.jpg'
 tags:   raps single 

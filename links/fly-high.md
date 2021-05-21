@@ -1,5 +1,5 @@
 ---
 permalink: /fly-high
 redirect_to:
-  - https://distrokid.com/hyperfollow/dylanhand/fly-high
+  - https://songwhip.com/dylanhand/fly-high
 ---

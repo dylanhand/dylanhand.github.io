@@ -1,5 +1,5 @@
 ---
 permalink: /letter-to-ashland
 redirect_to:
-  - https://distrokid.com/hyperfollow/dylanhand/letter-to-ashland
+  - https://songwhip.com/dylanhand/letter-to-ashland 
 ---
